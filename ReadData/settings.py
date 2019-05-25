@@ -25,7 +25,7 @@ SECRET_KEY = 'awy0fxarogrzr++95d-85-jp8emc$1&%ti5%lpc&f3^s2b1owt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'josemalpais.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'josemalpais.pythonanywhere.com', 'josemalpais.hopto.org']
 
 
 # Application definition
