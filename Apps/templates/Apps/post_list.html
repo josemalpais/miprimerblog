@@ -236,7 +236,28 @@
                 this site is working properly. You should <b>replace this file</b> (located at
                 <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
           </p>
-
+	< div >
+		< h1 >
+			< a href = "/" > Django chicas Blog 
+			< /a >
+		< / h1 >
+	< / div >
+	{% for post in posts %} 
+	< div >
+		< p > 
+			publicado: {{ post.published_date }} 
+		< /p >
+		< h1 >
+			< a href = "" >
+				{{ post.title }} 
+			< /a >
+		< / h1 >
+		< p >
+			{{ post.text|linebreaksbr }} 
+		< /p >
+	< / div >
+	{% endfor %}
+	{% for post in posts %} {{ posts }} {% endfor %}
 
           <p>
                 If you are a normal user of this web site and don't know what this page is
